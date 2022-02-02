@@ -3,17 +3,28 @@ body{
     padding: 0;
     box-sizing:border-box;
     font-family: sans-serif;
+    text-align: center;
+    background-color:#d1caca;
 }
 
 #img-div {
     text-align:center;
-    background-color:gray;
+    
     height:400px;
-    width:100%;
+    width:80%;
+    margin: 10px 10%;
     }
     #image{
     margin:auto;
     max-width: 50%;
     display: block;
-   
     } 
+    #img-caption{
+        text-align: center;
+    }
+    #tribute-link{
+        text-decoration: none;
+    }
+    #tribute-link:hover{
+         color: #008000;
+    }
