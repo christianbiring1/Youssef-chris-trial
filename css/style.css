@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+#img-div {
+    text-align:center;
+    background-color:gray;
+    height:400px;
+    width:100%;
+    position: relative;
+    }
+    #image{
+    margin:auto;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    width: calc(100% - 80%);
+    } 
