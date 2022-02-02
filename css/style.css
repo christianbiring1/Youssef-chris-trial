@@ -10,13 +10,10 @@ body{
     background-color:gray;
     height:400px;
     width:100%;
-    position: relative;
     }
     #image{
     margin:auto;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    width: calc(100% - 80%);
+    max-width: 50%;
+    display: block;
+   
     } 
